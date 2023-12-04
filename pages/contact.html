@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <title>Projet Html Css</title>
+</head>
+
+<body>
+    <Header>
+        <img class="headerimg" src="../assets/images/hcj.png" alt="imagehtml">
+        <div>
+            <nav>
+                <ul class="nav_bar">
+                    <li><a href="../index.html">ACCUEIL</a></li>
+                    <li><a href="../pages/pagehtml.html">HTML</a></li>
+                    <li><a href="../pages/pagecss.html">CSS</a></li>
+                    <li><a href="../pages/pagejavascript.html">JAVASCRIPT</a></li>
+                    <li><a href="../pages/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <img src="../assets/images/burger.svg" alt="" width="90">
+            </div>
+        </div>
+    </Header>
+    <main>  
+        <h1 class="title">Contactez-nous</h1>
+        <form action="/send-email" method="post" class="form">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required class="name"><br><br>
+    
+            <label for="email" >Email:</label>
+            <input type="email" id="email" name="email" required class="email"><br><br>
+    
+            <label for="message" class="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Envoyer" class="push">
+        </form>
+    
+        <h2 class="title_two">Coordonnées</h2>
+        <p class="para_one">Adresse email: yucel-h@hotmail.fr</p>
+        <p class="para_two">Numéro de téléphone: 06.50.16.57.07</p>   
+        
+    </main>
+    <footer>
+        <div>
+            <img class="logodusite" src="../assets/images/hcj.png" alt="Logo du site">
+        </div>
+        <div>
+            <p>Rejoignez-nous !</p>
+        </div>
+        <div>
+            <ul class="sociaux">
+                <li><a target="_blank" href="https://www.facebook.com/"><img src="../assets/images/logo-facebook.png"
+                            alt="Facebook"></a></li>
+                <li><a target="_blank" href="https://twitter.com/"><img src="../assets/images/logo-twiter.png"
+                            alt="Twitter"></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/"><img src="../assets/images/logo-youtube.png"
+                            alt="Youtube"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/"><img src="../assets/images/logo-instagram.png"
+                            alt="Instagram"></a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>
