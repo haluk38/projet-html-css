@@ -253,22 +253,15 @@ h2{
 .form{
     text-align: center;
     flex-direction: column;
-    width: 40%;
     margin: auto;
     display: flex;
     align-items: center;
+    border: 2px solid black;
+    margin-left: 35%;
+    margin-right:35% ;
+    background-color: #edede9;
 
 }
-.name{
-    width: 40%;
-}
-.email{
-    width: 40%;
-}
-.push{
-    width: 45%;
-}
-
 .para_one{
 text-align: center;
 }
@@ -276,7 +269,21 @@ text-align: center;
     text-align: center;
     margin-bottom: 5%;
     }
-
+#name{
+    border-radius:5px;
+}
+#firstnam{
+    border-radius:5px;
+}
+#email{
+    border-radius:5px;
+}
+#message{
+    border-radius:5px;
+}
+.push{
+    border-radius: 5px;
+}
 
 /* FIN DE MON MAIN PAGE CONTACT */
 
